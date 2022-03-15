@@ -39,6 +39,9 @@ nav {
 main {
   padding: 57px 27px;
   color: #FFF;
+  background-image: url(../src/images/reactjs-icon\ 2.png);
+  background-repeat: no-repeat;
+  background-position: right 75%;
 }
 
 .main--title {
@@ -56,4 +59,9 @@ main {
   line-height: 19px;
   padding-top: 10px;
   padding-bottom: 10px;
+}
+
+.main--facts > li::marker {
+  font-size: 1.4rem;
+  color: #61DAFB;
 }
